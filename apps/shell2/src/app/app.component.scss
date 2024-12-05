@@ -1,0 +1,28 @@
+.remote-menu {
+  display: flex;
+  width: 100%;
+  background-color: beige;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+
+    li {
+      list-style: none;
+      font-size: 18px;
+      font-family: sans-serif;
+      cursor: pointer;
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+    :hover {
+      a {
+        color: cadetblue;
+      }
+    }
+  }
+}

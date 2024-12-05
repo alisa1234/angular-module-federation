@@ -1,0 +1,29 @@
+.container {
+  span {
+    font-size: 40px;
+    font-family: sans-serif;
+    color: red;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+
+    .field {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+
+      label {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      input {
+        margin-left: 20px;
+        padding: 5px 5px;
+        width: 200px;
+        height: 15px;
+      }
+    }
+  }
+}
