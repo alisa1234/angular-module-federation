@@ -1,7 +1,9 @@
 <div class="container">
   <div class="header">
     <span>Flights</span>
-    <div class="user" *ngIf="user">User: {{user}}</div>
+    @if(user) {
+      <div class="user">User: {{user}}</div>
+    }
   </div>
   <table class="table">
     <tr class="header">
