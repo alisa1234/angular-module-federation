@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2020",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@angular-module-federation/auth-lib": ["auth-lib/src/index.ts"],
+      "mfe2/FlightModule": ["apps/mfe2/src/app/flights"],
+      "mfe2/Routes": ["apps/mfe2/src/app/remote-entry/entry.routes.ts"],
+      "mfe3/BookingModule": ["apps/mfe3/src/app/booking"],
+      "mfe3/Routes": ["apps/mfe3/src/app/remote-entry/entry.routes.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
