@@ -6,7 +6,6 @@ export function buildRoutes(options: any): Routes {
   const lazyRoutes: Routes = options.map((item: any) => {
     const name = item.name;
     const entry: any = item;
-    debugger
     return {
       path: entry.routePath,
       loadChildren: () =>

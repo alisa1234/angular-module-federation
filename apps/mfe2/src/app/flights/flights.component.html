@@ -2,11 +2,14 @@
   <div class="header">
     <span>Flights</span>
     @if(user) {
-      <div class="user">User: {{user}}</div>
+      <div class="user">
+        <h5>User:</h5>
+        <div>{{user}}</div>
+      </div>
     }
   </div>
   <table class="table">
-    <tr class="header">
+    <tr class="table-header">
       <td>Destination</td>
       <td>Flight number</td>
     </tr>

@@ -3,8 +3,6 @@ import {FlightsComponent} from "./flights.component";
 import {RouterModule} from "@angular/router";
 import {FLIGHTS_ROUTES} from "./flights.routes";
 
-
-
 @NgModule({
   declarations: [],
   imports: [

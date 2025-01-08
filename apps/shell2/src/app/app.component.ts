@@ -22,7 +22,7 @@ export class AppComponent implements OnInit{
   remotes: CustomRemoteConfig[] = [];
 
   constructor(private router: Router, private service: AuthServiceService) {
-    this.service.login('Max', null);
+    this.service.login('Alice', null);
   }
   ngOnInit() {
     const manifest = getManifest();

@@ -4,9 +4,9 @@
   "license": "MIT",
   "scripts": {
     "run:all": "node node_modules/@angular-architects/module-federation/src/server/mf-dev-server.js",
-    "serve:shell": "npx nx serve shell2 --open --watch",
-    "serve:mfe3": "npx nx serve mfe3 --open --watch",
-    "serve:mfe2": "npx nx serve mfe2 --open --watch"
+    "run:shell": "npx nx serve shell2 --open --watch",
+    "run:mfe3": "npx nx serve mfe3 --open --watch",
+    "run:mfe2": "npx nx serve mfe2 --open --watch"
   },
   "private": true,
   "dependencies": {
