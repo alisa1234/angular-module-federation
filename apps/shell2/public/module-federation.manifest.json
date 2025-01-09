@@ -1,6 +1,6 @@
 [
     {
-      "remoteEntry": "./apps/mfe2/remoteEntry.mjs",
+      "remoteEntry": "dist/apps/mfe2/remoteEntry.mjs",
       "exposedModule": "./FlightModule",
       "displayName": "Flights",
       "routePath": "flights",
