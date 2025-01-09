@@ -1,6 +1,6 @@
 [
     {
-      "remoteEntry": "../mfe2/remoteEntry.mjs",
+      "remoteEntry": "remoteEntry.mjs",
       "exposedModule": "./FlightModule",
       "displayName": "Flights",
       "routePath": "flights",
@@ -9,7 +9,7 @@
     }
 ,
     {
-      "remoteEntry": "../mf3/remoteEntry.mjs",
+      "remoteEntry": "remoteEntry.mjs",
       "exposedModule": "./BookingModule",
       "displayName": "Bookings",
       "routePath": "bookings",
