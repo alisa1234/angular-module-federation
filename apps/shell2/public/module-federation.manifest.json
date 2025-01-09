@@ -9,7 +9,7 @@
     }
 ,
     {
-      "remoteEntry": "http://localhost:4203/remoteEntry.mjs",
+      "remoteEntry": "https://angular-module-federation-booking.vercel.app/remoteEntry.mjs",
       "exposedModule": "./BookingModule",
       "displayName": "Bookings",
       "routePath": "bookings",
