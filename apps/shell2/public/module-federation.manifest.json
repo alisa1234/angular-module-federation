@@ -1,6 +1,6 @@
 [
     {
-      "remoteEntry": "dist/apps/mfe2/remoteEntry.mjs",
+      "remoteEntry": "https://angular-module-federation-flights.vercel.app/remoteEntry.mjs",
       "exposedModule": "./FlightModule",
       "displayName": "Flights",
       "routePath": "flights",
