@@ -1,6 +1,6 @@
 [
     {
-      "remoteEntry": "http://localhost:4202/remoteEntry.mjs",
+      "remoteEntry": "./apps/mfe2/remoteEntry.mjs",
       "exposedModule": "./FlightModule",
       "displayName": "Flights",
       "routePath": "flights",
